@@ -156,6 +156,10 @@ Open [http://127.0.0.1:8050](http://127.0.0.1:8050) in your browser.
 
 ## Dashboard Features
 
+| Top — Hero, Filters & KPIs | Bottom — Charts & Detail |
+|---|---|
+| ![Dashboard top half](nasadash2.png) | ![Dashboard charts](nasadash.png) |
+
 ### Hero Section
 Displays the most recent APOD image from the database with title, date, and full explanation. Click "View full resolution" to open the HD image.
 
