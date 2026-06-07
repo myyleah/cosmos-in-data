@@ -51,7 +51,7 @@ from sqlalchemy.types import Date, Integer, Text
 # Set up logging to both the console and a persistent log file so every
 # pipeline run is recorded for auditing and debugging.
 
-LOG_DIR = Path(__file__).resolve().parent / "logs"
+LOG_DIR = Path(__file__).resolve().parent.parent / "logs"
 LOG_DIR.mkdir(exist_ok=True)
 
 logging.basicConfig(
@@ -68,7 +68,7 @@ log = logging.getLogger(__name__)
 
 # ── Constants ──────────────────────────────────────────────────────────────────
 
-BASE_DIR    = Path(__file__).resolve().parent
+BASE_DIR    = Path(__file__).resolve().parent.parent
 EXPORT_DIR  = BASE_DIR / "data" / "analytics"
 EXPORT_DIR.mkdir(parents=True, exist_ok=True)
 
